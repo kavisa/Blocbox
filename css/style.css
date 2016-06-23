@@ -13,11 +13,13 @@ h2{
 	font-weight: normal;
 	margin-bottom:5px;
 }
+
 p {
 	font-size:16px;
 	line-height:19px;
 	font-weight: 100;
 }
+
  /* GRID */
  .container {
    margin-right: auto;
@@ -41,3 +43,8 @@ p {
    min-height: 1px;
    margin:0 2% 20px;
  }
+.animate fadeIn {
+   -webkit-animation-duration: 3s;
+   -webkit-animation-delay: 2s;
+   -webkit-animation-iteration-count: 5;
+}
