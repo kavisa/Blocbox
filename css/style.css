@@ -100,6 +100,11 @@ Header.animate fadeIn h1 {
      width: 1170px;
    }
  }
+ @media tv (min-width: 1024px) and (orientation: landscape){
+  .container {
+    width: 1024px;
+  }
+ }
 
 /* HEADER */
  header {
