@@ -76,7 +76,7 @@ Header.animate fadeIn h1 {
 
 
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
    .container {
      width: 750px;
    }
@@ -104,7 +104,8 @@ Header.animate fadeIn h1 {
   .container {
     width: 100%;
   }
- }
+ }*/
+
 
 /* HEADER */
  header {
@@ -327,7 +328,7 @@ header .hero {
    margin-top: 30px;
  }
 .lower {
-  position: absolute;
+  position: relative;
   top: 20px;
 }
 
@@ -381,14 +382,127 @@ header .hero {
      background-color: #3498DB;
    }
    footer .logo{
-     padding: 2em 0 2em 1.5em;
+     padding: 2em 0 3em 1.5em;   }
+ }
+ /*RESPONSIVE*/
+
+  /*@media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+  }
+  @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
    }
  }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+ @media tv (min-width: 1024px) and (orientation: landscape){
+  .container {
+    width: 100%;
+  }
+ }*/
+ /*CHANGES FOR 768PX VIEW*/
+ @media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+@media (min-width: 768px) {
+ div.one-half{
+  width: 45%
+ }
+ li.one-third p {
+  padding: 0px 100px;
+ }
+ div.container p{
+  padding :0px 150px;
+ }
+ div.box {
+  width:370px;
+  position:relative;
+  margin:0px 0px 0px 175px;
+ }
+ section.testimonials {
+  position: relative;
+  z-index: 2;
+ }
+ img.logo{
+ margin-right: 80px;
+ margin-top: -100px;
+ }
+ div.left-footer-block.one-third {
+  margin-left: -240px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+   }
+ nav.link-block.middle-footer-block.one-third {
+  margin-left: -220px;
+   }
+@media (min-width: 768px){
+   footer{
+     background-color: #3498DB;
+     background-image: linear-gradient(to left,
+        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+     height: 80px;
+}
 
-
-
-
-
+/*changes for 992px view*/
+@media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29%;
+   }
+   li.one-third p {
+    padding:0px 5px;
+   }
+   div.box {
+    margin: 0px -50px 0px 0px;
+    width:270px;
+   }
+   .one-fourth {
+     width:21%;
+   }
+   div.right-footer-block.one-third {
+    margin:0px 0px 0px 50px;
+    width:0px;
+   }
+   img.logo{
+    position:absolute;
+    right: -670px;
+    margin:0px 0px 0px 0px;
+    padding:20px 0px;
+    }
+   footer ul {
+    z-index: 2;
+    position: absolute;
+    right:-480px;
+    top:-8px;
+   }
+   p.copyright-block {
+    margin-left: 100px;
+    display: inline-block;
+    width: 250px;
+    margin-top: 24px;
+   }
+   }
 
 
 
