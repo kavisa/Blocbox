@@ -488,11 +488,11 @@ header .hero {
    footer ul {
     z-index: 2;
     position: absolute;
-    right:-480px;
+    right:-500px;
     top:-8px;
    }
    p.copyright-block {
-    margin-left: 100px;
+    margin-left: 250px;
     display: inline-block;
     width: 250px;
     margin-top: 24px;
@@ -637,7 +637,7 @@ header .hero {
    text-align: right;
    float: right;
    margin-right:10px;
-   margin-top:8px;
+   margin-top:-8px;
  }
     /* CONTENT */
  .content {
@@ -771,4 +771,19 @@ li.active {
   height:20px;
   border-radius: 4px;
   padding:3px 0px 3px 4px;
+}
+/*SETTINGS DROP DOWN*/
+.settings1 ul.dropit-submenu li a {
+line-height: 40px;
+}
+
+.settings1 ul.dropit-submenu::after {
+  width:0px;
+  height: 0px;
+  border-width: 0 8px 8px;
+  border-top: 8px
+  border-color: #FFFFFF transparent;
+  transform: rotate(180deg);
+  margin-top: 144px;
+
 }
